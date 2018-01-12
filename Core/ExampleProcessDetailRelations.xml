@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProcessDetailList>
+  <ProcessDetail>
+    <Id>1</Id>
+    <Name>CsvImportJob</Name>
+    <Weight>0.5</Weight>
+    <AverageDurationMS>2000</AverageDurationMS>
+    <DotNetObjectDetails>
+      <AssemblyPath>C:\bin\tie\TIEProcesses.dll</AssemblyPath>
+      <FullyQualifiedObjectName>TIE.Import.CsvImport</FullyQualifiedObjectName>      
+    </DotNetObjectDetails>
+  </ProcessDetail>
+  <ProcessDetail>
+    <Id>2</Id>
+    <Name>XmlImportJob</Name>
+    <Weight>0.5</Weight>
+    <AverageDurationMS>2000</AverageDurationMS>
+    <DotNetObjectDetails>
+      <AssemblyPath>C:\bin\tie\TIEProcesses.dll</AssemblyPath>
+      <FullyQualifiedObjectName>TIE.Import.XmlImport</FullyQualifiedObjectName>      
+    </DotNetObjectDetails>
+  </ProcessDetail>
+  <ProcessDetail>
+    <Id>3</Id>
+    <Name>XmlExport</Name>
+    <Weight>0.5</Weight>
+    <AverageDurationMS>2000</AverageDurationMS>
+    <DotNetObjectDetails>
+      <AssemblyPath>C:\bin\tie\TIEProcesses.dll</AssemblyPath>
+      <FullyQualifiedObjectName>TIE.Export.XmlExport</FullyQualifiedObjectName>      
+    </DotNetObjectDetails>
+  </ProcessDetail>
+  <ProcessDetail>
+    <Id>4</Id>
+    <Name>CsvExport</Name>
+    <Weight>0.5</Weight>
+    <AverageDurationMS>2000</AverageDurationMS>
+    <DotNetObjectDetails>
+      <AssemblyPath>C:\bin\tie\TIEProcesses.dll</AssemblyPath>
+      <FullyQualifiedObjectName>TIE.Export.CsvExport</FullyQualifiedObjectName>      
+    </DotNetObjectDetails>
+  </ProcessDetail>
+</ProcessDetailList>

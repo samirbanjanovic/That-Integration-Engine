@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HandlerList>
+	<Handler>
+		<Id>1</Id>
+		<Name>CsvDataImport</Name>
+		<H_Type>Watcher</H_Type>
+		<AsyncEvents>true</AsyncEvents>
+		<WatcherDetails>
+			<Directory>C:\drops\Test\tie</Directory>
+			<FileFilter>*.csv</FileFilter>
+			<IsRemoteLocation>false</IsRemoteLocation>
+		</WatcherDetails>
+	</Handler>
+	<Handler>
+		<Id>2</Id>
+		<Name>FiveSecondTrigger</Name>
+		<H_Type>Scheduler</H_Type>
+		<AsyncEvents>true</AsyncEvents>
+		<SchedulerDetails>
+			<CronExpression>* 0/5 * * * ?</CronExpression>
+		</SchedulerDetails>
+	</Handler>
+	<Handler>
+		<Id>4</Id>
+		<Name>XmlDataImport</Name>
+		<H_Type>Watcher</H_Type>
+		<AsyncEvents>true</AsyncEvents>
+		<WatcherDetails>
+			<Directory>C:\drops\Test\tie</Directory>
+			<FileFilter>*.xml</FileFilter>
+			<IsRemoteLocation>false</IsRemoteLocation>
+		</WatcherDetails>
+	</Handler>
+</HandlerList>

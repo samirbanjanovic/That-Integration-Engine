@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Relations>
+  <Trigger id ="1">
+    <PId>1</PId>
+  </Trigger>
+  <Trigger id ="4">
+    <PId>2</PId>
+  </Trigger>
+  <Trigger id ="2">
+    <PId>3</PId>
+    <PId>4</PId>
+  </Trigger>  
+</Relations>
