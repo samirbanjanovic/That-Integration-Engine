@@ -1,6 +1,6 @@
 # That Integration Engine
 
-A comprehensive local system process management platform designed as a thought project. This engine provides dynamic process invocation and lifecycle management, processing work requests and spawning job members as needed.
+A local system process management platform designed as a thought project. This engine provides dynamic process invocation and lifecycle management, processing work requests and spawning job members as needed.
 
 ## Table of Contents
 
